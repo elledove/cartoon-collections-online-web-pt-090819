@@ -23,5 +23,6 @@ end
 def find_the_cheese(type)           # code an argument  
                            # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  type.find {|n| n.}
+  type.find do |n| cheeese_types.include? (n)
+end
 end
